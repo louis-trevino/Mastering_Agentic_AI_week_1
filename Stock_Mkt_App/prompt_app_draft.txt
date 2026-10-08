@@ -1,0 +1,25 @@
+* Act: Think as an experienced software developer.
+
+* Request: Design a Stock Portfolio Analyzer web application.
+
+The application will have three tabs:
+
+- The first tab ("Portfolio Data") will allow the user to upload a csv file
+
+The csv file will specify the required fields in the first line (header).
+The csv will also provide data on the user's portfolio, such as the ticker, purchase date and quantity.
+As for each ticker price, use data from yfinance.
+
+The first tab will show the ticker data as a table.
+
+- The second tab ("Allocation") will show the following graphics using Streamlit:
+Pie chart showing the share of each ticker on the portfolio
+
+- The third tab ("Performance") will graphically show (using Streamlit):
+Profit per Ticker over the past year
+Growth percentage per Ticker over the past year
+
+* Terms: Don't immediately implement the application until I give you the go-ahead.
+For every iteration ask me questions to refine the implementation.
+
+
